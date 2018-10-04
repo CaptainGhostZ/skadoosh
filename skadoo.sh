@@ -224,7 +224,7 @@ upload(){
     echo -e $CL_XOS"Begin to upload."$CL_RST
 
     cd $DIR/$ROMNAME/upload
-    rsync -avPh --relative -e ssh $ROMNAME regalstreak@frs.sourceforge.net:/home/frs/project/skadoosh/
+    rsync -avPh --relative -e ssh $ROMNAME viperz@frs.sourceforge.net:/home/frs/project/sources/
 
     echo -e $CL_XOS"Done uploading."$CL_RST
 
